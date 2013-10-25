@@ -1,0 +1,5 @@
+1. DNS High Failure changed to DNS High Failure for unique domains.
+2. Removed inbound scan as it is a continuous noise
+3. Increased threshold of smtp (20 smtp conns in 5 minutes)
+   Increased threshold of dns failures (20 in 5 minutes)
+

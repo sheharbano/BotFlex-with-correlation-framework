@@ -17,10 +17,10 @@ BotFlex is an open source tool for bot detection and analysis tool. Though it wa
 How to get going:
 ====================================================
 
-1) This works for bro version 2.1-265. I have included that version of bro here, with BotFlex and Correlation framework in:
+1) This works for bro version 2.1-265 (I have included a zipped copy of which here). All you have to do is to unzip bro, and add BotFlex (provided here) and Correlation framework (can be found in my repos) in:
 bro/scripts/site/
 
-2) For live analysis: bro -i <interface> bro/scripts/site/botflex/detection/correlation/correlation.bro
+2) Then, for live analysis: bro -i <interface> bro/scripts/site/botflex/detection/correlation/correlation.bro
        trace file:  bro -r <trace.pcap> bro/scripts/site/botflex/detection/correlation/correlation.bro
 
 Note: There are more correlation files with different rules in bro/scripts/site/botflex/detection/correlation/sample
